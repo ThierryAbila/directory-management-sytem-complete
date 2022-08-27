@@ -1,0 +1,258 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+}
+
+
+/* side togggle */
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #555;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 366px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+    .sidenav a {
+        width: 100%;
+        font-size: 18px;
+    }
+    .navbar a {
+        width: 100%;
+        float: none;
+        display: block;
+    }
+    .boxes {
+        width: 100%;
+        display: block;
+        grid-gap: 16px;
+    }
+    .box-info {
+        display: block;
+    }
+    .container {
+        width: 90%;
+    }
+}
+
+h1 {
+    color: #fff;
+    text-align: center;
+    font-size: 42px;
+}
+
+#btn {
+    cursor: pointer;
+}
+
+ul li {
+    color: #fff;
+    list-style: none;
+    font-size: 20px;
+    padding: 20px 24px;
+}
+
+#list {
+    background: grey;
+}
+
+#list:hover {
+    background: grey;
+}
+
+a {
+    text-decoration: none;
+}
+
+#sidebar ul li:hover {
+    background: grey;
+}
+
+button {
+    color: #fff;
+    list-style: none;
+    font-size: 20px;
+    padding: 20px 24px;
+    background: grey;
+    border: grey;
+}
+
+
+/* dropdown */
+
+.dropbtn {
+    background-color: grey;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+/* dropdown */
+
+
+/* side toggle */
+
+
+/* navbar */
+
+.navbar {
+    width: 100%;
+    background-color: #555;
+    overflow: auto;
+}
+
+.navbar a {
+    float: left;
+    padding: 30px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navbar a:hover {
+    background-color: #000;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+
+/* navbar  */
+
+
+/* box view */
+
+.box-info {
+    width: 100%;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    margin-top: 36px;
+    background: lightblue;
+    border-radius: 10px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
+
+.box-info .text {
+    padding-left: 0px;
+    padding-right: 0;
+}
+
+.box-info h3 {
+    padding-left: 7px;
+}
+
+.box-info .text {
+    width: 30%;
+}
+
+.box-info .text a {
+    padding-left: 7px;
+}
+
+.boxes {
+    width: 100%;
+    display: flex;
+    grid-gap: 20%;
+}
+
+
+/* body */
+
+
+/* search bar */
+
+.search {
+    text-align: center;
+    padding: 14px;
+    margin-left: 50px;
+}
+
+
+/* search bar */
+
+
+/* table editing */
+
+.table {
+    margin-top: 90px;
+}
+
+
+/* table editing */
+
+
+/* logout color */
+
+.red {
+    color: red;
+}
+
+
+/* log out color */
